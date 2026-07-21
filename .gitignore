@@ -1,0 +1,20 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/chroma_db/
+*.pyc
+
+# React Native / Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/android/app/build/
+mobile/android/build/
+mobile/ios/build/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
