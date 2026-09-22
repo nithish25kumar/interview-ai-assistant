@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Point this at your deployed backend, or your machine's LAN IP for local dev
 // (localhost won't work from a physical device/emulator).
-const BASE_URL = "http://10.85.34.143:8005";
+const BASE_URL = "https://interview-ai-assistant-b81x.onrender.com";
 
 export const api = axios.create({
   baseURL: BASE_URL,
